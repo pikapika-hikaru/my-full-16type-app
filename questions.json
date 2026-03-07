@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "人混みの中にいると、エネルギーを吸い取られるように感じる。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 2,
+    "question": "新しい人に出会うのが楽しみで、自分から話しかけることが多い。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 3,
+    "question": "週末は家で一人で静かに過ごすのが一番の贅沢だ。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 4,
+    "question": "パーティーやイベントでは、最後まで残って楽しむタイプだ。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 5,
+    "question": "考えがまとまってから発言するよりも、話しながら考えることが多い。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 6,
+    "question": "電話よりもメールやチャットでのやり取りを好む。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 7,
+    "question": "注目を浴びることに抵抗がなく、むしろ心地よく感じることがある。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 8,
+    "question": "大勢で協力して作業するよりも、一人で集中して作業する方が効率が良いと感じる。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 9,
+    "question": "知らない人ばかりの集まりでも、すぐに打ち解けることができる。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 10,
+    "question": "自分の感情や考えを他人に話すことはあまりない。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 11,
+    "question": "賑やかな場所に行くと、活力が湧いてくるのを感じる。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 12,
+    "question": "内省的だと言われることが多い。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 13,
+    "question": "議論の場では、黙って聞いているよりも積極的に発言する方だ。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 14,
+    "question": "社交的な場に長くいると、一人になりたいと強く思う。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 15,
+    "question": "休日は友人と予定を立てて出かけることが多い。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 16,
+    "question": "聞き役に回ることが多い。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 17,
+    "question": "新しい環境に飛び込むことに不安よりも期待を感じる。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 18,
+    "question": "自分の部屋やプライベートな空間を非常に大切にしている。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 19,
+    "question": "思いついたらすぐ行動に移すタイプだ。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 20,
+    "question": "深い信頼関係にある、少数の友人がいれば十分だ。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 21,
+    "question": "休憩時間は同僚や友人と雑談して過ごしたい。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 22,
+    "question": "自分の考えていることを他人に理解してもらうのは難しいと感じる。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 23,
+    "question": "周囲の反応を見てから行動するよりも、自分のペースで動くことが多い。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 24,
+    "question": "静かな環境で読書をしたり、趣味に没頭したりするのが好きだ。",
+    "dimension": "EI",
+    "direction": "I"
+  },
+  {
+    "id": 25,
+    "question": "人前でスピーチや発表をすることにあまり緊張しない。",
+    "dimension": "EI",
+    "direction": "E"
+  },
+  {
+    "id": 26,
+    "question": "理論的な抽象概念よりも、具体的な事実やデータを信頼する。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 27,
+    "question": "物事の背後にある意味や可能性を考えるのが好きだ。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 28,
+    "question": "「もし〜だったら」という想像を巡らせることがよくある。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 29,
+    "question": "現在の状況よりも、将来のビジョンに興味がある。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 30,
+    "question": "細かいディテールに気づきやすく、正確に把握するのが得意だ。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 31,
+    "question": "比喩的な表現や象徴的な物語を好む。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 32,
+    "question": "過去の経験に基づいた確実な方法を好む。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 33,
+    "question": "ひらめきや直感を大切にしている。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 34,
+    "question": "実用的で役に立つ情報に価値を感じる。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 35,
+    "question": "複雑で難解な問題に取り組むことにやりがいを感じる。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 36,
+    "question": "現実離れした空想をすることは時間の無駄だと思うことがある。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 37,
+    "question": "全体像を把握してから、詳細を詰めていくのが得意だ。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 38,
+    "question": "手順書やマニュアルに従って着実に進めるのが好きだ。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 39,
+    "question": "変化を好み、新しいアイデアを次々と試したい。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 40,
+    "question": "五感（視覚、聴覚、触覚など）を刺激する体験に惹かれる。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 41,
+    "question": "自分は現実主義者だという自覚がある。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 42,
+    "question": "言葉の裏にある意図を読み取ろうとすることが多い。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 43,
+    "question": "伝統的なやり方や確立されたルールを尊重する。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 44,
+    "question": "自分のインスピレーションに従って行動することが多い。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 45,
+    "question": "抽象的な議論よりも、具体的な解決策を話したい。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 46,
+    "question": "独創的でユニークなアイデアを出すのが得意だ。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 47,
+    "question": "身の回りの変化にすぐに気づく方だ。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 48,
+    "question": "SF映画やファンタジー小説など、想像力豊かな作品が好きだ。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 49,
+    "question": "今この瞬間を楽しむことが最も重要だと思う。",
+    "dimension": "SN",
+    "direction": "S"
+  },
+  {
+    "id": 50,
+    "question": "将来起こりうるリスクや可能性を常に予測している。",
+    "dimension": "SN",
+    "direction": "N"
+  },
+  {
+    "id": 51,
+    "question": "論理的な整合性を何よりも重視する。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 52,
+    "question": "他人の感情に敏感で、共感することが多い。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 53,
+    "question": "客観的な事実に基づいて判断を下すのが得意だ。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 54,
+    "question": "人間関係の調和を保つことが大切だと思う。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 55,
+    "question": "議論では感情を抜きにして、正論を言うべきだと思う。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 56,
+    "question": "困っている人がいたら、理屈抜きで助けたいと思う。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 57,
+    "question": "非効率なことは、たとえ感情的に納得できなくても正すべきだ。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 58,
+    "question": "決断を下す際、周囲の人がどう感じるかを一番に考える。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 59,
+    "question": "分析的で批判的な思考を持っていると言われることがある。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 60,
+    "question": "映画や本の内容に感情移入して泣いてしまうことがよくある。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 61,
+    "question": "公平性とは、ルールを誰に対しても同じように適用することだと思う。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 62,
+    "question": "個々の事情を汲み取って、柔軟に対応するのが優しさだと思う。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 63,
+    "question": "冷静沈着で、あまり取り乱すことがない。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 64,
+    "question": "他人の喜びに強く同調し、自分のことのように喜べる。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 65,
+    "question": "能力がないと感じる人に対して、厳しく接してしまうことがある。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 66,
+    "question": "褒め言葉を素直に受け取り、モチベーションに変えるのが得意だ。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 67,
+    "question": "感情よりも理性を優先させるべきだと考えている。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 68,
+    "question": "誰かが不快にならないよう、言葉を選んで話すようにしている。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 69,
+    "question": "真実を伝えるためなら、多少の摩擦は避けられないと思う。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 70,
+    "question": "人の和を乱すようなことは、極力避けたい。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 71,
+    "question": "結果を出すことが、プロセスよりも重要だ。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 72,
+    "question": "心が温まるような物語やエピソードに弱い。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 73,
+    "question": "自分の信念よりも、論理が通っているかどうかで判断する。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 74,
+    "question": "困っている友人の話を聞くのが得意だ。",
+    "dimension": "TF",
+    "direction": "F"
+  },
+  {
+    "id": 75,
+    "question": "問題の本質をズバリと指摘することがある。",
+    "dimension": "TF",
+    "direction": "T"
+  },
+  {
+    "id": 76,
+    "question": "計画通りに物事を進めることが得意で、予定外のことは苦手だ。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 77,
+    "question": "状況に合わせて柔軟に対応するのが得意で、急な変更も歓迎だ。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 78,
+    "question": "締め切りは必ず守り、早めに終わらせるようにしている。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 79,
+    "question": "締め切り直前にならないと、やる気が出ないことが多い。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 80,
+    "question": "整理整頓が好きで、自分のデスクや部屋はいつも片付いている。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 81,
+    "question": "多少散らかっていても、どこに何があるか分かれば気にならない。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 82,
+    "question": "旅行の際は、分単位で詳細なスケジュールを立てたい。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 83,
+    "question": "旅行は行き先だけ決めて、現地での気分で行動したい。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 84,
+    "question": "決断を下すとスッキリし、早く結果を出したいと思う。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 85,
+    "question": "選択肢を常に広げておきたいので、決断はギリギリまで先延ばしにする。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 86,
+    "question": "ルーチンワークをこなすのが得意だ。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 87,
+    "question": "同じことの繰り返しは飽きやすく、刺激を求める。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 88,
+    "question": "リストを作成し、終わったものから消していくことに快感を感じる。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 89,
+    "question": "その時のインスピレーションで動く方が、良い結果が出ることが多い。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 90,
+    "question": "予期せぬ出来事にはストレスを感じる。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 91,
+    "question": "予期せぬ出来事が起きても、ゲームのように楽しめる。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 92,
+    "question": "準備は念入りにしすぎるくらいでちょうどいいと思う。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 93,
+    "question": "準備しすぎると自由がなくなるような気がして、避ける。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 94,
+    "question": "自分を規律正しい人間だと思っている。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 95,
+    "question": "自由奔放で、型にハマらない生き方を好む。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 96,
+    "question": "目標は明確に定め、逆算して行動する。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 97,
+    "question": "目標に向かうよりも、過程そのものや偶然の出会いを楽しみたい。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 98,
+    "question": "何事も白黒はっきりさせたい。",
+    "dimension": "JP",
+    "direction": "J"
+  },
+  {
+    "id": 99,
+    "question": "世の中は曖昧なままでいいことも多いと思う。",
+    "dimension": "JP",
+    "direction": "P"
+  },
+  {
+    "id": 100,
+    "question": "一度始めたら最後までやり遂げることをモットーにしている。",
+    "dimension": "JP",
+    "direction": "J"
+  }
+]
