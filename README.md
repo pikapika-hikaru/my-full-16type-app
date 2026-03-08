@@ -1,6 +1,6 @@
-# my-full-mbti-app
+# my-full-16type-app
 
-Pythonで作成した100問構成のMBTI診断プログラムです。
+Pythonで作成した100問構成の16タイプ性格診断プログラムです。
 
 ## 特徴
 - 質問100問をJSONファイルで管理
@@ -11,13 +11,13 @@ Pythonで作成した100問構成のMBTI診断プログラムです。
 
 1. リポジトリをクローンします：
    ```bash
-   git clone https://github.com/YOUR_USERNAME/my-full-mbti-app.git
-   cd my-full-mbti-app
+   git clone https://github.com/pikapika-hikaru/my-full-16type-app.git
+   cd my-full-16type-app
    ```
 
 2. プログラムを実行します：
    ```bash
-   python mbti_app.py
+   python type16_app.py
    ```
 
 ## 使い方

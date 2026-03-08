@@ -2,7 +2,7 @@ import json
 import sys
 import os
 
-class MBTIDiagnosis:
+class Type16Diagnosis:
     def __init__(self, questions_path='questions.json'):
         self.questions_path = questions_path
         self.questions = self._load_questions()
@@ -39,7 +39,7 @@ class MBTIDiagnosis:
             return json.load(f)
 
     def run_test(self):
-        print("=== MBTI診断プログラム (100問版) ===")
+        print("=== 16タイプ性格診断プログラム (100問版) ===")
         print("1: 全く当てはまらない")
         print("2: あまり当てはまらない")
         print("3: どちらともいえない")
@@ -78,19 +78,19 @@ class MBTIDiagnosis:
                 self.scores[opposite] += abs(weight)
 
     def get_result(self):
-        mbti = ""
-        mbti += 'E' if self.scores['E'] >= self.scores['I'] else 'I'
-        mbti += 'S' if self.scores['S'] >= self.scores['N'] else 'N'
-        mbti += 'T' if self.scores['T'] >= self.scores['F'] else 'F'
-        mbti += 'J' if self.scores['J'] >= self.scores['P'] else 'P'
+        result_type = ""
+        result_type += 'E' if self.scores['E'] >= self.scores['I'] else 'I'
+        result_type += 'S' if self.scores['S'] >= self.scores['N'] else 'N'
+        result_type += 'T' if self.scores['T'] >= self.scores['F'] else 'F'
+        result_type += 'J' if self.scores['J'] >= self.scores['P'] else 'P'
         
-        description = self.descriptions.get(mbti, "詳細な説明が見つかりませんでした。")
-        return mbti, description
+        description = self.descriptions.get(result_type, "詳細な説明が見つかりませんでした。")
+        return result_type, description
 
     def show_summary(self):
-        mbti, desc = self.get_result()
+        result_type, desc = self.get_result()
         print("\n" + "=" * 30)
-        print(f"診断結果: {mbti}")
+        print(f"診断結果: {result_type}")
         print(f"{desc}")
         print("=" * 30)
         print("\nスコア詳細:")
@@ -100,7 +100,7 @@ class MBTIDiagnosis:
         print(f"J-P: J {self.scores['J']} - P {self.scores['P']}")
 
 if __name__ == "__main__":
-    app = MBTIDiagnosis()
+    app = Type16Diagnosis()
     try:
         app.run_test()
         app.show_summary()
